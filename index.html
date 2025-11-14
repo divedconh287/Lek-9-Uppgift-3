@@ -3,11 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Frågesport</title>
     <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"></script>
 </head>
 <body>
-
+    <h1>Frågesport Hufvudstäder</h1>
+    <div class="fraga_div">
+        <p id="fraga">FRÅGA: </p>
+    </div>
+    <div class="svar_div">
+        <label>Ange ditt svar: <input type="text" id="svar" size="20"></label>
+        <button type="button" onclick="angesvar()" >Klicka för svar</button>
+    </div>
+    <div class="resultat_div">
+        <p id="resultat">SVAR: </p>
+        <button type="button" onclick="fraga()">Ny fråga</button>
+    </div>
 </body>
 </html>
