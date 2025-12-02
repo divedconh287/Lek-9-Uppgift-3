@@ -7,7 +7,7 @@ body{
 div{
     min-width: 470px;
 }
-.fraga_div, .svar_div, .resultat_div {
+.fraga_div, .svar_div, .resultat_div, .ny {
     display: flex;
     flex-direction: row;
     justify-content: center;

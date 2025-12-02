@@ -32,5 +32,8 @@ function angesvar(){
     // Om sant så Öka poängen med 1
     poang++;
     //Lägg till information om poängen till användaren
-    p_resultat.textContent += ",poäng="+poang;
-}
+    p_resultat.textContent += " poäng = "+poang;
+}// från uppgift 9 övning 3^
+
+let stad = ny_stad.value;
+    stader.push(stad);
